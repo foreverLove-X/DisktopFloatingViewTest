@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <com.example.dell.disktopfloatingviewtest.view.MyImageView
+        android:id="@+id/user_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/user_img" />
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/news_tit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="@string/news_tit1"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/news_txt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/news_txt1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/center"
+        android:gravity="top|right"
+        android:text="@string/send_time_test" />
+</RelativeLayout>

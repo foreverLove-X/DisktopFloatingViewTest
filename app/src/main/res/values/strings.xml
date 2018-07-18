@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DisktopFloatingViewTest</string>
+    <string name="news_tit1">研发部二年级</string>
+    <string name="news_txt1">现在我们可以测试一下新的环节</string>
+    <string name="news_tit2">班级值周</string>
+    <string name="news_txt2">你的班级2年级1班获得新的班级量化，请查看</string>
+    <string name="send_time_test">2018-06-09</string>
+    <string name="postive_txt">正能量化得分</string>
+    <string name="negative_txt">负能量化得分</string>
+</resources>
